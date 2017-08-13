@@ -20,7 +20,7 @@
 }
 
 body {
-	background-image: url("abblur.jpg"); no-repeat center fixed;
+	background-image: url("/ui/abblur.jpg"); no-repeat center fixed;
 	background-size: cover;
 	height: 100%;
 	margin: 0;
@@ -37,7 +37,7 @@ html, body {
 }
 
 .top{ 
-	background-image: url("background.jpg"); blur(5px);
+	background-image: url("/ui/background.jpg"); blur(5px);
 	background-position: center top;
 	background-size: cover;
 	display: flex;
@@ -73,7 +73,6 @@ nav a {
 .thumbnail {
 	display: inline;
 	border: 1px solid white;
-	margin: 5px auto;
 	width:30%;
 }
 
@@ -95,8 +94,6 @@ nav a {
 
 .profile {
 	display: inline;
-	align: right;
-	margin: 0 auto;
 }
 
 .vision {
@@ -110,13 +107,13 @@ nav a {
 	font-size: 20px;
 	color: black;
 	text-align: justify;
-	display: center;
+	display: block;
 	margin: 10px;
 }
 
 .con {
 	font-size: 20px;
-	display: center;
+	display: block;
 	color: antiquewhite;
 }
 
