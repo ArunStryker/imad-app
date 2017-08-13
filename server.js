@@ -9,6 +9,26 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+app.get('/ui/indec.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'indec.css'));
+});
+
+app.get('/ui/aboutus.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'aboutus.html'));
+});
+
+app.get('/ui/aboutus.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'aboutus.css'));
+});
+
+app.get('/ui/contactus.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'contactus.html'));
+});
+
+app.get('/ui/con1.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'con1.css'));
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
