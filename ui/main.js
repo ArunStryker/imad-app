@@ -2,6 +2,6 @@ console.log('Loaded!');
 
 document.getElementById('me');
 me.onhover = function() {
-    me.style.width= '500px';
-    me.style.height = '300px';
+    me.style.width= '45%';
+    me.style.height = '45%';
 };
