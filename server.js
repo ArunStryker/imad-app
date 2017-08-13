@@ -18,7 +18,7 @@ app.get('/ui/aboutus.html', function (req, res) {
 });
 
 app.get('/ui/aboutus.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'aboutus.css'));
+  res.sendFile(path.join(__dirname, 'ui', 'aboutdec.css'));
 });
 
 app.get('/ui/contactus.html', function (req, res) {
