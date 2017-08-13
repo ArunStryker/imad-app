@@ -37,6 +37,10 @@ app.get('/ui/server.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'server.js'));
 });
 
+app.get('/ui/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+});
+
 app.get('/ui/background.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'background.jpg'));
 });
