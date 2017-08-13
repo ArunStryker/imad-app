@@ -41,7 +41,7 @@ app.get('/ui/background.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'background.jpg'));
 });
 
-app.get('/ui/logo.png', function (req, res) {
+app.get('/ui/A_logo.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'A_logo.png'));
 });
 
