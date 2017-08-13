@@ -1,0 +1,106 @@
+/*common part starts*/
+
+*
+{
+	font-family: 'trajan', rockwell, verdana, serif;
+	font-weight: normal;
+}
+
+.title {
+  text-align: center;
+  font-weight: 100;
+  color: #003366;
+}
+
+.subtitle {
+  text-align: center;
+  font-weight: 100;
+  color: red;
+}
+
+html, body {
+  /*display: flex;
+  flex-direction: column;*/
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body {
+	background-image: url("background.jpg"); no-repeat center fixed;
+  	background-size: cover;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	min-width: 100%;
+	background-attachment: fixed;
+}
+
+.top{ 
+	background-image: url("background.jpg");
+	background-position: center top;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+  background-color: #003366;
+}
+
+nav li {
+  margin: 0;
+  padding: 0 10px;
+  display: inline;
+}
+
+nav ul {
+  display: inline;
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+/*common part ends*/
+
+.frame1 h2 {
+	color:blue; 
+	font-size: 25px;
+}
+
+.frame2 h1 {
+	color:red;
+	font-size: 40px; 
+	text-align: center;
+}
+
+.frame2 h3 {
+	color:red; 
+	font-size: 20px; 
+	text-align: center;
+}
+
+p {
+	color:#fff font-size: 15px;
+}
+
+.frame2 {
+	padding: 100px 0;
+	margin: 25px;
+}
+
+#footer {
+	font-size: 0.75rem;
+	color:blue;
+}
+
+.con {
+  text-align: center;
+  font-weight: 100;
+  color: #003366;
+}

@@ -1,0 +1,101 @@
+/*common part starts*/
+
+*
+{
+	font-family: 'trajan', rockwell, serif;
+	font-weight: normal;
+}
+
+.title {
+  text-align: center;
+  font-weight: 100;
+  color: #003366;
+}
+
+.subtitle {
+  text-align: center;
+  font-weight: 100;
+  color: red;
+}
+
+body {
+	background-image: url("conblur.jpg"); no-repeat center fixed;
+	background-size: cover;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+html, body {
+  /*display: flex;
+  flex-direction: column;*/
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.top{ 
+	background-image: url("background.jpg"); blur(5px);
+	background-position: center top;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+  background-color: #003366;
+}
+
+nav li {
+  margin: 0;
+  padding: 0 15px;
+  display: inline;
+}
+
+nav ul {
+  display: inline;
+}
+
+nav a {
+  height: 70px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+/*common part ends*/
+
+.thumbnail{
+	margin-left: 20px;
+	margin-top: 20px;
+	width:30%;
+	border: 1px solid white;
+}
+
+.author1 {
+	text-align: justify;
+	padding: 30px;
+	margin-left: auto;
+}
+
+.name {
+	font-family: 'trajan', serif;
+	font-size: 30px;
+	color: antiquewhite;
+}
+
+.list {
+	font-family: 'trajan', serif;
+	font-size: 20px;
+	color: antiquewhite;
+}
+
+.frame1 h2 {
+	color:blue; 
+	font-size: 25px;
+}
+
+

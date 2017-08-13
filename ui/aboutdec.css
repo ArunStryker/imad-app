@@ -1,0 +1,127 @@
+/*common part starts*/
+
+*
+{
+	font-family: 'trajan', rockwell, serif;
+	font-weight: normal;
+}
+
+
+.title {
+  text-align: center;
+  font-weight: 100;
+  color: #003366;
+}
+
+.subtitle {
+  text-align: center;
+  font-weight: 100;
+  color: red;
+}
+
+body {
+	background-image: url("abblur.jpg"); no-repeat center fixed;
+	background-size: cover;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+html, body {
+  /*display: flex;
+  flex-direction: column;*/
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.top{ 
+	background-image: url("background.jpg"); blur(5px);
+	background-position: center top;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	padding-right: 10;
+}
+
+nav {
+  background-color: #003366;
+}
+
+nav li {
+  margin: 0;
+  padding: 0 15px;
+  display: inline;
+}
+
+nav ul {
+  display: inline;
+}
+
+nav a {
+  height: 70px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+/*common part ends*/
+
+.thumbnail {
+	display: inline;
+	border: 1px solid white;
+	margin: 5px auto;
+	width:30%;
+}
+
+.author1 {
+	text-align: left;
+	padding: 30px;
+	margin: 0 auto;
+}
+
+.name {
+	font-size: 30px;
+	color: antiquewhite;
+}
+
+.self {
+	font-size: 20px;
+	color: antiquewhite;
+}
+
+.profile {
+	display: inline;
+	align: right;
+	margin: 0 auto;
+}
+
+.vision {
+	border: 2px solid black;
+	font-size: 30px;
+	color: #003366;
+}
+
+.desc {
+	font-family: 'trajan', serif;
+	font-size: 20px;
+	color: black;
+	text-align: justify;
+	display: center;
+	margin: 10px;
+}
+
+.con {
+	font-size: 20px;
+	display: center;
+	color: antiquewhite;
+}
+
+.frame1 h2 {
+	color:blue; 
+	font-size: 25px;
+}
+
