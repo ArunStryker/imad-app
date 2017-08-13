@@ -19,7 +19,7 @@
 }
 
 body {
-	background-image: url("conblur.jpg"); no-repeat center fixed;
+	background-image: url("/ui/conblur.jpg"); no-repeat center fixed;
 	background-size: cover;
 	height: 100%;
 	margin: 0;
@@ -36,7 +36,7 @@ html, body {
 }
 
 .top{ 
-	background-image: url("background.jpg"); blur(5px);
+	background-image: url("/ui/background.jpg"); blur(5px);
 	background-position: center top;
 	background-size: cover;
 	display: flex;
@@ -50,7 +50,6 @@ nav {
 }
 
 nav li {
-  margin: 0;
   padding: 0 15px;
   display: inline;
 }
